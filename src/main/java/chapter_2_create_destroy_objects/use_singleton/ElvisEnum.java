@@ -1,4 +1,4 @@
-package use_singleton;
+package chapter_2_create_destroy_objects.use_singleton;
 
 public enum ElvisEnum {
     INSTANCE;

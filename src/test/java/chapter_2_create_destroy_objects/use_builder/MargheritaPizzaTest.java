@@ -1,9 +1,10 @@
-package use_builder;
+package chapter_2_create_destroy_objects.use_builder;
 
+import chapter_2_create_destroy_objects.use_builder.MargheritaPizza;
+import chapter_2_create_destroy_objects.use_builder.Pizza;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class MargheritaPizzaTest {
     @Test

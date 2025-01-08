@@ -1,9 +1,9 @@
-package use_static_fabric;
+package chapter_2_create_destroy_objects.use_static_fabric;
 
+import chapter_2_create_destroy_objects.use_static_fabric.User;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class UserTest {
     @Test

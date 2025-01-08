@@ -1,4 +1,4 @@
-package use_builder;
+package chapter_2_create_destroy_objects.use_builder;
 
 import java.util.EnumSet;
 import java.util.Objects;

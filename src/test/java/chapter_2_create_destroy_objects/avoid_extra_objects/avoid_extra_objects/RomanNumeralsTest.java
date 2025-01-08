@@ -1,5 +1,6 @@
-package avoid_extra_objects;
+package chapter_2_create_destroy_objects.avoid_extra_objects.avoid_extra_objects;
 
+import chapter_2_create_destroy_objects.avoid_extra_objects.RomanNumerals;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

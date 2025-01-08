@@ -1,4 +1,4 @@
-package avoid_extra_objects;
+package chapter_2_create_destroy_objects.avoid_extra_objects;
 
 import java.util.regex.Pattern;
 

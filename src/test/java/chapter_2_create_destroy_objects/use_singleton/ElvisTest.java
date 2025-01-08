@@ -1,5 +1,6 @@
-package use_singleton;
+package chapter_2_create_destroy_objects.use_singleton;
 
+import chapter_2_create_destroy_objects.use_singleton.Elvis;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

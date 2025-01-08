@@ -1,4 +1,4 @@
-package use_static_fabric;
+package chapter_2_create_destroy_objects.use_static_fabric;
 
 public class User {
 

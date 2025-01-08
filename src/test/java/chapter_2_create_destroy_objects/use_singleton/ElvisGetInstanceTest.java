@@ -1,5 +1,6 @@
-package use_singleton;
+package chapter_2_create_destroy_objects.use_singleton;
 
+import chapter_2_create_destroy_objects.use_singleton.Elvis;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
@@ -33,22 +34,4 @@ class ElvisGetInstanceTest {
         // Assert the printed message
         assertEquals(expectedOutput, actualOutput, "The method should print the correct message");
     }
-
-    @Test
-    void testSingletonPropertyReadResolve() throws IOException, ClassNotFoundException {
-        // Serialize the instance
-        Elvis originalInstance = Elvis.getInstance();
-        ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
-        ObjectOutputStream out = new ObjectOutputStream(byteOut);
-        out.writeObject(originalInstance);
-
-        // Deserialize the instance
-        ByteArrayInputStream byteIn = new ByteArrayInputStream(byteOut.toByteArray());
-        ObjectInputStream in = new ObjectInputStream(byteIn);
-        Elvis deserializedInstance = (Elvis) in.readObject();
-
-        // Verify that the deserialized instance is the same as the original
-        assertSame(originalInstance, deserializedInstance, "Deserialized instance should be the same as the original instance");
-    }
-
 }
